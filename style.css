@@ -1,0 +1,94 @@
+*{
+    color:black;
+}
+
+body{
+    background-color: rgb(33,33,33);
+    font-family: 'Roboto','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.nav{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+ul li{
+    display: inline;
+    margin-left: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+.emirhan{
+    margin-right: 50px;
+    font-family: 'Roboto','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.digerlinkler{
+    font-size: 12px;
+}
+
+.galeri{
+    padding: 15px;
+}
+
+.card{
+    display: inline-block;
+    width: 49%;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.card img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card img:hover {
+  opacity: 0.9;
+}
+
+.card p{
+    color:white
+}
+
+.why{
+    width: 100%;
+    height: 400px;
+}
+
+#sozKutu{
+    width: 500px;
+    height: 350px;
+    position: relative;
+    left: 220px;
+}
+
+.soz{
+    font-style: italic;
+    font-weight: 200;
+    color: white;
+}
+
+.haydi{
+    color:darkred;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 35px;
+}
+
+.info{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    color: white;
+}
